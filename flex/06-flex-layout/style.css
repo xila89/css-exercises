@@ -4,15 +4,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
 img {
-  display: flex;
   width: 600px;
-  margin: 50px;
+  margin: 0;
 }
 
 button {
@@ -20,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px;
 }
 
 input {
@@ -27,6 +27,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 15px;
   
 }
 
